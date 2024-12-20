@@ -78,9 +78,9 @@ main {
 }
 
 .profile-photo {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .background-info {
