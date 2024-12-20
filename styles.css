@@ -68,7 +68,7 @@ main {
 
 .contact-info, .photo-contact {
     flex: 1;
-    min-width: 300px;
+    min-width: 100px;
     text-align: justify;
 }
 
