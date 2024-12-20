@@ -121,6 +121,10 @@ footer {
     text-decoration: underline;
 }
 
+.divider {
+            border-top: 1px solid #000;
+        }
+
 @media (max-width: 768px) {
     .nav-content {
         flex-direction: column;
