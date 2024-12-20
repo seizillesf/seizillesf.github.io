@@ -60,12 +60,37 @@ main {
     padding: 20px;
 }
 
-section {
-    margin-bottom: 40px;
+.home-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.background-info, .photo-contact {
+    flex: 1;
+    min-width: 300px;
+}
+
+.photo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.contact-info {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 h2 {
     color: #2c3e50;
+    margin-top: 0;
 }
 
 footer {
@@ -75,6 +100,26 @@ footer {
     margin-top: 40px;
 }
 
+.publication-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publication-list li {
+    margin-bottom: 1em;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.publication-list a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.publication-list a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .nav-content {
         flex-direction: column;
@@ -82,6 +127,10 @@ footer {
 
     nav a {
         margin: 5px 0;
+    }
+
+    .home-layout {
+        flex-direction: column;
     }
 }
 
