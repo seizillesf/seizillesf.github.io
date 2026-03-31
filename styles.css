@@ -147,7 +147,8 @@ footer {
 .profile-intro-block {
     display: flex; /* Enables Flexbox */
     flex-wrap: wrap;
-    align-items: flex-start; /* Aligns photo and text to the top */
+    /*align-items: flex-start; /* Aligns photo and text to the top */
+    align-items: stretch
     gap: 40px; /* Adds space between the columns, like in the image */
     /*max-width: 900px; /* Sets a reasonable max width for the whole block */
     margin: 0 auto; /* Centers the whole block on the page */
@@ -155,7 +156,7 @@ footer {
 
 /* 2. Style the photo column (optional size constraints) */
 .photo-column {
-    flex: 0 0 200px; /* Fixed width of 200px for the photo column */
+    flex: 0 0 250px; /* Fixed width of 200px for the photo column */
 }
 
 .photo-column .profile-photo {
