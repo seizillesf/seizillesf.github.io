@@ -146,9 +146,10 @@ footer {
 /* 1. Set up the flex container */
 .profile-intro-block {
     display: flex; /* Enables Flexbox */
+    flex-wrap: wrap;
     align-items: flex-start; /* Aligns photo and text to the top */
     gap: 40px; /* Adds space between the columns, like in the image */
-    max-width: 900px; /* Sets a reasonable max width for the whole block */
+    /*max-width: 900px; /* Sets a reasonable max width for the whole block */
     margin: 0 auto; /* Centers the whole block on the page */
 }
 
