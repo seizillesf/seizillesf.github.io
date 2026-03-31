@@ -170,6 +170,16 @@ footer {
     text-align: justify; /* Keeps your justified text preference */
 }
 
+/* Optional: Style Contact info formatting, like in the target image */
+.contact-info p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.contact-info p strong {
+    margin-right: 5px; /* Adds space after the bold labels */
+}
+
 /* Adds spacing between each paper */
 .publication-item {
   margin-bottom: 24px;
