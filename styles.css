@@ -143,6 +143,32 @@ footer {
     min-width: 400px;
 }
 
+/* 1. Set up the flex container */
+.profile-intro-block {
+    display: flex; /* Enables Flexbox */
+    align-items: flex-start; /* Aligns photo and text to the top */
+    gap: 40px; /* Adds space between the columns, like in the image */
+    max-width: 900px; /* Sets a reasonable max width for the whole block */
+    margin: 0 auto; /* Centers the whole block on the page */
+}
+
+/* 2. Style the photo column (optional size constraints) */
+.photo-column {
+    flex: 0 0 200px; /* Fixed width of 200px for the photo column */
+}
+
+.photo-column .profile-photo {
+    width: 100%; /* Makes the photo fill its 200px container */
+    height: auto; /* Keeps the correct aspect ratio */
+    border-radius: 5px; /* Adds a small border radius, like in the image */
+}
+
+/* 3. Style the text column to take up remaining space */
+.text-column {
+    flex: 1; /* Makes the text column grow to fill the remaining width */
+    text-align: justify; /* Keeps your justified text preference */
+}
+
 /* Adds spacing between each paper */
 .publication-item {
   margin-bottom: 24px;
