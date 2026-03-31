@@ -143,6 +143,42 @@ footer {
     min-width: 400px;
 }
 
+/* Adds spacing between each paper */
+.publication-item {
+  margin-bottom: 24px;
+}
+
+/* Styles the bracketed numbers (assumed to be links) */
+.pub-number {
+  font-weight: 700;
+  color: #0b6678; /* A dark teal/blue that matches the screenshot */
+  text-decoration: underline; /* Note: adjust or remove if you don't want the underline */
+  margin-right: 4px;
+}
+
+.pub-number:hover {
+  color: #084c5a; /* Darkens slightly on hover */
+}
+
+/* Bolds the paper title */
+.pub-title {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* Keeps the authors regular weight */
+.pub-authors {
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+/* Italicizes the journal/venue and drops it to the next line */
+.pub-venue {
+  font-style: italic;
+  margin-top: 4px;
+  color: #1a1a1a;
+}
+
 @media (max-width: 768px) {
     .nav-content {
         flex-direction: column;
